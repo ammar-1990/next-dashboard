@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-amber-600 blur-[90px] top-[-50px] left-[40%]"></div>
         <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-teal-500 blur-[90px] top-[-50px] right-0"></div>
 
-        <div className="flex justify-between p-12 items-center">
+        <div className="flex justify-between p-8 items-center">
 
           <span>{moment().format("dddd,Do MMM YYYY")}</span>
 
@@ -34,6 +34,8 @@ const Layout = ({ children }) => {
           </div>
 
         </div>
+
+        <main className="p-8">{children}</main>
       </div>
     </div>
   );

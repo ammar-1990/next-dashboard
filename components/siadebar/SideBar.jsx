@@ -42,7 +42,7 @@ const router=useRouter()
 
         <div>Logo</div>
         <div className='flex flex-col h-full justify-evenly'>
-{links.map(el=><Link key={el.id} href={el.to} className={router.pathname===el.to && 'text-red-600'}><el.icon size={25}/></Link>)}
+{links.map(el=><Link key={el.id} href={el.to} className={`${router.pathname===el.to && 'text-red-600'} hover:text-red-600 duration-200 `}><el.icon size={25}/></Link>)}
         </div>
     </div>
   )
