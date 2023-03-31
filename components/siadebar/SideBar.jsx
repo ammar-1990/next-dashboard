@@ -38,10 +38,10 @@ const router=useRouter()
 
 
   return (
-    <div className='p-2 flex flex-col items-center h-full'>
+    <div className='p-2 px-4 flex flex-col items-center h-full'>
 
         <div>Logo</div>
-        <div className='flex flex-col h-full justify-evenly'>
+        <div className='flex flex-col h-full mt-20 gap-16'>
 {links.map(el=><Link key={el.id} href={el.to} className={`${router.pathname===el.to && 'text-red-600'} hover:text-red-600 duration-200 `}><el.icon size={25}/></Link>)}
         </div>
     </div>
