@@ -4,7 +4,7 @@ import SideBar from "../siadebar/SideBar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen w-screen flex bg-zinc-800 text-white">
+    <div className="h-screen w-screen flex bg-zinc-900 text-white">
     <SideBar />
       <div className="flex-1 h-full overflow-hidden relative z-0 flex flex-col ">
         <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-red-600 blur-[90px] top-[-200px] left-[-125px]"></div>

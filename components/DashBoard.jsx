@@ -35,7 +35,7 @@ const DashBoard = () => {
 
 
     </div>
-    <div className=" bg-black/60 rounded-lg flex-1 p-8">
+    <div className=" bg-black/60 rounded-lg flex-1 px-8 py-5">
 <div className="flex gap-5 justify-center items-center">
     <img src="/assets/avatar.png" alt="" className="w-[2rem]" />
     <p className="uppercase">orders today</p>
