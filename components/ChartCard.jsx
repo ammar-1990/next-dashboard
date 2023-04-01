@@ -5,6 +5,23 @@ import * as echarts from 'echarts'
 
 const ChartCard = () => {
     const option = {
+
+        color:'orange',
+        tooltip:{
+            trigger:'axis',
+            axisPointer:{
+                type:'cross'
+            },
+            backgroundColor:'rgba(0,0,0,0.59)',
+            backgroundWidth:0
+        },
+
+        toolbox:{
+            feature:{
+                saveAsImage:{}
+            }
+        },
+       
         xAxis:[
             {
                 type:'category',
@@ -18,6 +35,7 @@ const ChartCard = () => {
                 splitLine:{
                     show:false,
                 }
+               
             }
         ],
         series:[
@@ -51,15 +69,15 @@ width:2
                             },
                         ])
                 },
-                showSymbole:false,
+                showSymbol:false,
                 data:[28000,19000,32000,10000,41000,30000,26000]
             }
         ]
     }
   return (
-    <div className="mt-5 max-w-[750px] w-full p-4 bg-black/60 rounded-lg">
+    <div className="mt-3 max-w-[750px] w-full p-4 bg-black/60 rounded-lg">
     <h3>Overview Statistics</h3>    
-        <div className="py-2 mt-3 border-y-[0.3px] border-zinc-800 bg-gradient-to-r from-black via-zinc-900 to-black flex justify-between items-center" >
+        <div className="p-2 mt-3 border-y-[0.3px] border-zinc-800 bg-gradient-to-r from-black via-zinc-900 to-black flex justify-between items-center" >
 <div className='flex gap-4 items-center'>
     <span className='w-5 h-5  inline-flex items-center justify-center rounded-md text-black bg-gradient-to-r from-orange-700 to-orange-400'><AiOutlineArrowUp /></span>
     <div>

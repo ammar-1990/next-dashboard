@@ -4,12 +4,12 @@ import SideBar from "../siadebar/SideBar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen w-screen flex bg-black text-white">
+    <div className="h-screen w-screen flex bg-zinc-800 text-white">
     <SideBar />
       <div className="flex-1 h-full overflow-hidden relative z-0 flex flex-col ">
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-red-600 blur-[90px] top-[-50px] left-0"></div>
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-amber-600 blur-[90px] top-[-50px] left-[40%]"></div>
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-teal-500 blur-[90px] top-[-50px] right-0"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-red-600 blur-[90px] top-[-200px] left-[-125px]"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-amber-600 blur-[90px] top-[-200px] left-[40%]"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-teal-500 blur-[90px] top-[-200px] right-[-125px]"></div>
 
         <div className="flex justify-between p-8 px-12 items-center">
 
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
 
         </div>
 
-        <main className="p-8 flex-1">{children}</main>
+        <main className="px-8 flex-1">{children}</main>
       </div>
     </div>
   );
