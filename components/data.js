@@ -105,6 +105,7 @@ export function createEventId() {
 export const boardData = {
   columns: [
     {
+        key:1,
       id: 1,
       title: "Backlog",
       cards: [
@@ -121,6 +122,7 @@ export const boardData = {
       ]
     },
     {
+        key:2,
       id: 2,
       title: "TODO",
       cards: [
@@ -132,6 +134,7 @@ export const boardData = {
       ]
     },
     {
+        key:3,
       id: 3,
       title: "Doing",
       cards: [
@@ -148,6 +151,7 @@ export const boardData = {
       ]
     },
     {
+        key:4,
       id: 4,
       title: "Completed",
       cards: [

@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-.myTable::-webkit-scrollbar {
-    width:5px;
-}
 
-.myTable::-webkit-scrollbar-thumb {
-@apply bg-gradient-to-r from-orange-700 to-orange-400
-}
-
-.myTable::-webkit-scrollbar-track {
-    background-color: gray;
-}
 
 .fc-event{
    @apply bg-gradient-to-r from-orange-700 to-orange-400
 }
 
-.fc .fc-timegrid-slot {
+.fc-timegrid-slot {
     height: 2.5rem !important;
 }
 
 td {
     border: 1px gray solid !important;
+}
+
+
+.fc {
+    height: 500px;
+}
+
+.fc-scroller::-webkit-scrollbar {
+    width:10px
+}
+
+.fc-scroller::-webkit-scrollbar-thumb{
+@apply bg-gradient-to-r from-orange-700 to-orange-400
+}
+
+.fc-scroller::-webkit-scrollbar-track{
+    @apply bg-gray-200
+}
+
+.MuiTableRow-root, .MuiTableCell-root {
+    border: none !important;
 }

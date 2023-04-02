@@ -36,7 +36,7 @@ const handleEventClick =(clickInfo)=>{
 }
   return (
     <div className=''>
-<div className='max-w-[1200px] w-[100%] m-auto px-[2rem] overflow-y-scroll h-[500px] myTable'>
+<div className='max-w-[1200px] w-[100%] m-auto px-[2rem] '>
 <FullCalendar 
 plugins={[dayGridPlugin,interactionPlugin,timeGridPlugin]}
 headerToolbar={{

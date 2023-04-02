@@ -7,9 +7,9 @@ const Layout = ({ children }) => {
     <div className="h-screen w-screen flex bg-zinc-900 text-white">
     <SideBar />
       <div className="flex-1 h-full overflow-hidden relative z-0 flex flex-col ">
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-red-600 blur-[90px] top-[-200px] left-[-125px]"></div>
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-amber-600 blur-[90px] top-[-200px] left-[40%]"></div>
-        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-teal-500 blur-[90px] top-[-200px] right-[-125px]"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-red-600 blur-[90px] top-[-100px] left-[-125px]"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-amber-600 blur-[90px] top-[-100px] left-[40%]"></div>
+        <div className="absolute z-[-1] w-[250px] h-[250px] rounded-full bg-teal-500 blur-[90px] top-[-100px] right-[-125px]"></div>
 
         <div className="flex justify-between p-8 px-12 items-center">
 

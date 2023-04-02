@@ -19,13 +19,9 @@ const links =[
         icon:AiFillCalendar,
         to:'/calendar'
     },
+  
     {
         id:'3',
-        icon:FaTasks,
-        to:'/tasks'
-    },
-    {
-        id:'4',
         icon:AiOutlineTable,
         to:'/table'
     }
